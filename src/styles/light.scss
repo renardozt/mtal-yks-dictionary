@@ -1,0 +1,135 @@
+html[theme="light"] {
+
+    &,
+    body {
+        background-color: #fff;
+    }
+
+    ::-moz-selection {
+        -webkit-text-fill-color: #fff;
+        color: #fff;
+        background: #111;
+    }
+
+    ::selection {
+        -webkit-text-fill-color: #fff;
+        color: #fff;
+        background: #111;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #999;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #777;
+    }
+
+
+    .handler {
+        background-color: #fff;
+
+        .navbar {
+            background-color: #d1d1d1;
+
+            #menu,
+            .main>i {
+                color: #000;
+            }
+
+            input[type="text"] {
+                background-color: #fff;
+                color: #000;
+            }
+
+            button {
+                background-color: #f1f1f1;
+                color: #000;
+
+                &:hover {
+                    background-color: #000;
+                    color: #fff;
+                }
+            }
+        }
+
+        .words {
+            background-color: #d1d1d1;
+
+            p {
+                color: #000;
+            }
+
+            ul {
+                li {
+                    &:hover {
+                        background: linear-gradient(to right, #111, transparent);
+                        animation: whover-light 1s both;
+
+                        @keyframes whover-light {
+                            0% {
+                                background-size: 200% 200%;
+                                background-position: -100% 100%;
+                            }
+
+                            100% {
+                                background-size: 100% 100%;
+                                background-position: 0% 0%;
+                            }
+                            
+                        }
+
+                        a {
+                            transition: all .75s linear;
+                            color: #fff;
+                        }
+
+                        @media screen and (max-width: 768px) {
+                            background: linear-gradient(to right, transparent, #111, transparent);
+                        }
+                    }
+
+                    a {
+                        color: #000;
+                    }
+                }
+            }
+        }
+
+        .panel {
+            background-color: #fff;
+            color: #000;
+
+            .home {
+                img {
+                    animation: mtal-ds-light 5s infinite linear;
+
+                    @keyframes mtal-ds-light {
+                        0% {
+                            filter: drop-shadow(0 0 2em rgba(0, 0, 0, .5));
+                        }
+
+                        50% {
+                            filter: none;
+                        }
+
+                        100% {
+                            filter: drop-shadow(0 0 2em rgba(0, 0, 0, .5));
+                        }
+                    }
+                }
+            }
+
+            .word {
+                .loader {
+                    background: rgba(209, 209, 209, .5);
+
+                    .circle {
+                        background-color: #111;
+                    }
+                }
+            }
+        }
+    }
+}

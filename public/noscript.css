@@ -1,0 +1,36 @@
+body {
+    background-color: #fff;
+}
+noscript {
+    color: #000;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+noscript div {
+    text-align: center;
+}
+
+noscript div img {
+    height: 250px;
+    margin: 0 10px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+noscript p {
+    text-align: center;
+}
+
+noscript p span {
+    color: #ff0000;
+}
+
+noscript p a {
+    text-decoration: none;
+    color: #0077b6;
+}
