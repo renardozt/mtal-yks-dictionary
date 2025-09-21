@@ -19,7 +19,7 @@ Bu proje, öğrencilerin karşılaştıkları bilinmeyen kelimeleri kolayca öğ
 
 ### 1. Depoyu klonla
 ```bash
-git clone https://github.com/renardozt/tubitak.git
+git clone https://github.com/renardozt/mtal-yks-dictionary.git
 cd tubitak
 ```
 
