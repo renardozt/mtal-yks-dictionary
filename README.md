@@ -20,7 +20,7 @@ Bu proje, öğrencilerin karşılaştıkları bilinmeyen kelimeleri kolayca öğ
 ### 1. Depoyu klonla
 ```bash
 git clone https://github.com/renardozt/mtal-yks-dictionary.git
-cd mtal-yks-disctionary
+cd mtal-yks-dictionary
 ```
 
 ### 2. Bağımlılıkları yükle
